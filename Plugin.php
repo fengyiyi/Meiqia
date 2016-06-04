@@ -35,7 +35,7 @@ class Meiqia_Plugin implements Typecho_Plugin_Interface
     public static function deactivate(){
         
         Helper::removeAction('Meiqia-add');
-        Helper::removePanel(2, "Meiqia/Main.php");
+        Helper::removePanel(3, "Meiqia/Main.php");
     }
     
     /**
